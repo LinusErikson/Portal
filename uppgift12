@@ -12,3 +12,7 @@
 </div>
 
 <button id="btn" class="btn-primary">show</button>
+
+
+
+<script src="/script/js12.js"></script>
