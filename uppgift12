@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+
+        <ol class="col-lg-6">
+            <li>Hur många människor finns det i hela världen?</li>
+            <li>Hur många människor finns i Europa?</li>
+            <li>Hur många kvinnor finns det i Zimbabwe?</li>
+            <li>Vilket land har minst befolkning?
+            <li>[VG] Vilken kontinent har högst befolkning?</li>
+        </ol>        <ol id="Listan" class="col-lg-6"></ol>
+    </div>
+</div>
+
+<button id="btn" class="btn-primary">show</button>
