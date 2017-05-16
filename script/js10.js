@@ -1,6 +1,6 @@
 btnAdd.addEventListener("click", function () {
     var text = document.getElementById("text");
-   let lista = document.getElementById("lista");
+   var lista = document.getElementById("lista");
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(text.value));
     lista.appendChild(li);
@@ -9,7 +9,7 @@ btnAdd.addEventListener("click", function () {
 btnDelete.addEventListener("click", deleteElement)
 btnChange.addEventListener("click", changeText);
 lista.addEventListener("click", listClick);
-let select;
+var select;
 function listClick(e) {
     select = e.target;
     var text = document.getElementById("text")
@@ -17,7 +17,7 @@ function listClick(e) {
     e.target.style.backgroundColor = 'red';
 }
 function changeText() {
-    let text = document.getElementById("text");
+    var text = document.getElementById("text");
     select.innerHTML = text.value;
     select.style.backgroundColor = "green";
 }
