@@ -1,4 +1,4 @@
-lass Stuff extends React.Component {
+class Stuff extends React.Component {
   constructor() {
     super();
     this.state = { stuff: ['bil','båt','hund','katt'] };
