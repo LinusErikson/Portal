@@ -1,0 +1,10 @@
+<ol id="lista">
+    
+</ol>
+<input id="text" /> <br/> <br/>
+<button id="btnChange" class="btn-success">Change</button>
+<button id="btnDelete" class="btn-danger">Delete</button>
+<button id="btnAdd" class="btn-primary">Add</button>
+
+
+ <script src="/script/js10.js"></script>
