@@ -23,7 +23,7 @@ class Countries extends React.Component {
 
   render() {debugger;
     return (
-    
+    <div>
         <h1>Countries</h1>
         {
           this.state.countries.length == 0 ? 'Loading countries..' : this.state.countries.map(country => (
@@ -33,7 +33,7 @@ class Countries extends React.Component {
             ))
         }
          <label>{this.state.countries.length}</label>
-     
+     </div>
     );
   }
 }
