@@ -1,0 +1,18 @@
+#wishBtn{
+  background-color:#30d60a;
+  
+}
+#cancelBtn{
+  background-color:#b8b7bb;
+  border-color: none;
+}
+
+.fieldset-show {
+    min-height: 80px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-width: 1px;
+    background-color: #eee8e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
