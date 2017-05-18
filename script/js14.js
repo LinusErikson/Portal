@@ -10,9 +10,9 @@ class Stuff extends React.Component {
         <h1>stuff</h1>
         {
           this.state.stuff.map(stuff => (
-             <ul>
+             <li>
                {stuff}
-             </ul>
+             </li>
             ))
         }
       </div>
